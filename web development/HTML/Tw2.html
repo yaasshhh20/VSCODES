@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <title>AWS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        /* Style the header */
+        .header {
+            padding: 80px;
+            text-align: center;
+            background: #dfb9db;
+            color: rgb(16, 1, 1);
+        }
+
+        /* Increase the font size of the h1 element */
+        .header h1 {
+            font-size: 40px;
+        }
+
+        /* Style the top navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* Style the navigation bar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Column container */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Create two unequal columns that sits next to each other */
+        /* Sidebar/left column */
+        .side {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            background-color: rgb(163, 157, 157);
+        }
+
+        /* Main column */
+        .achievements {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+            width:200px;
+          
+            height:500px;
+        }
+        .one{
+            display:inline-block;
+            text-align:center;
+        }
+        .two{
+            margin-left:200px;
+        }
+        .three{
+            margin-left:200px;
+        }
+        .achievements1{
+            margin-left:820px;
+            margin-top:16%;
+            position:absolute;
+            height:420px;
+            width:100%;
+        }
+        .gsoc{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: black;
+            color:white;
+        }
+        /* Fake image, just for this example */
+        .fakeimg {
+            background-color: #aaa;
+            width: 200px;
+
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #1abc9c;
+            margin-top:0px;
+            width:100%;
+        }
+
+        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="h1">Yash Kulkarni</h1>
+        <i>A website created by me</i>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Certifications</a>
+        <a href="#">Socials</a>
+        <a href="#" class="right">Contact</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>Photo of me:</h5>
+            <div class="fakeimg" style="height:200px;"><img src="C:\Users\ASUS\Downloads\GIGA.jpg" alt="profile" height="200px"width="200px"></div>
+            <p>2nd year Student at KLS Gogte Institute of Technology Belgaum.</p>
+            <h3>Social media</h3>
+            <p>You can contact me here.</p>
+            <div class="fakeimg" style="height:60px;width:60px;"><img src= alt="insta" height="60px"></div><p>@yaasshhh20</p><br>
+            <div class="fakeimg" style="height:60px;width:60px;"><img src="twitter.jpg" alt="twitter" height="60px"></div><p>Yash Kulkarni</p><br>
+            <div class="fakeimg" style="height:60px;width:60px;"><img src="linkedin.jpg" alt="Linked in" height="60px"></div><p>Yash Kulkarni</p><br>
+        </div>
+        <div class="achievements">
+            <h2>Achievements</h2>
+           <div class="one">
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;"><img src="C:\Users\ASUS\Downloads\ieee.png" alt="ieee" width="100%" height="200px"></div>
+            <p class="gsoc">Ranked 1st in </p>
+            <p class="gsoc">Google summer of code.</p>
+        </div> 
+        <div class="one two">
+           
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;"><img src="C:\Users\ASUS\Downloads\ieee.png" alt="ieee" width="100%"height="200px"></div>
+            <p class="gsoc">Worked in</p>
+            <p class="gsoc">Anonymous.Created chat gpt for fun</p>
+        </div>
+        <div class="one three">
+           
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;"><img src="C:\Users\ASUS\Downloads\hacker.jpeg" alt="ieee" width="100%"height="200px"></div>
+            <p class="gsoc">Took down malicious sites</p>
+            <p class="gsoc">at 10 years of age.</p>
+        </div>
+    </div>
+    <div class="achievements achievements1">
+            <h2>Skills</h2>
+           <div class="one">
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;"><img src="C:\Users\ASUS\Downloads\computer.png" alt="ieee" width="100%" height="200px"></div>
+            <p class="gsoc">Languages known:C,C++</p>
+            <p class="gsoc">HTML,CSS,JS</p>
+        </div> 
+        <div class="one two">
+           
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;"><img src="C:\Users\ASUS\Downloads\hackerrank.jpeg" alt="ieee" width="100%"height="200px"></div>
+            <p class="gsoc">Competitive coding</p>
+            <p class="gsoc">and puzzle solving</p>
+        </div>
+        <div class="one three">
+           
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;"><img src="fend.jpeg" alt="ieee" width="100%"height="200px"></div>
+            <p class="gsoc">full stack developer</p>
+            <p class="gsoc">i can code in assembly language</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>&copy Taneeshq</h2>
+    </div>
+
+</body>
+
+</html>

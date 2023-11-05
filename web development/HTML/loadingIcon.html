@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .logo h1{
+                text-transform: uppercase;
+                font-family: Arial,Arial, Helvetica, sans-serif;
+                font-size: 52px;
+            }
+            .logo h1:nth-child(2){
+                margin-top: -95px;
+                color: tomato;
+                animation: animation 3s ease-in-out infinite;
+            }
+            @keyframes animations 0%,100%{
+                clipPath: polygon(
+                    0% 0%,
+                    14% 0%,
+                    27% 14%,
+                    40% 26%,
+                    53% 38%,
+                    67% 48%,
+                    80% 51%,
+                    100% 49%,
+                    100% 99%,
+                    0% 99%
+                );
+            }
+            50%{
+                clipPath: polygon(
+                    0% 59%,
+                    14% 54%,
+                    30% 53%,
+                    54% 56%,
+                    57% 46%,
+                    66% 31%,
+                    78% 17%,
+                    100% 0%,
+                    100% 99%,
+                    0% 99%
+                );
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo">
+            <h1>GETBITCODE</h1>
+            <h1>GETBITCODE</h1>
+        </div>
+    </body>
+</html>

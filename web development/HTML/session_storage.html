@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script type="text/javascript">
+            if(sessionStorage.hints){
+                sessionStorage.hints = Number(sessionStorage.hints)+1;
+            }else{
+                sessionStorage.hints = 1;
+            } 
+            document.write("Total Hints: " + sessionStorage.hints);
+        </script>
+        <p>Refresh the page to increase the numberof hints</p>
+        <p>Close the window and open it again and check the result</p>
+    </body>
+</html>

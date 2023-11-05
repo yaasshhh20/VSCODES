@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img{
+                --s: 250px;
+                --b: 8px;
+                --g: 15px;
+                --c: #ffff;
+
+                width: var(--s);
+                aspect-ratio: 1;
+                outline: calc(var(--s)/2) solid rgba(255, 255, 255, 0.6);
+                outline-offset: calc(var(--s)/2);
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            img :hover{
+                outline: var(--b) solid var(--c);
+                outline-offset: var(--g);
+            }
+            img{
+                border-radius: 50%;
+            }
+            body{
+                margin: 0;
+                min-height: 100vh;
+                display: grid;
+                grid-auto-flow: column;
+                gap: 50px;
+                place-content: center;
+                place-items: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <img src="C:\Users\yashk\Downloads\WhatsApp Image 2022-11-23 at 08.55.57.jpeg"alt="no image">
+</html>

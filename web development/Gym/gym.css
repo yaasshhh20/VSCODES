@@ -1,0 +1,209 @@
+.nav{
+    height: 100px;
+    width: auto;
+    background-color: rgb(208, 249, 187);
+}
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover {
+    background-color: rgb(84, 219, 138);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 25px;
+}
+.bg-img{
+    height: 700px;
+    width: auto;
+    background:  center/cover no-repeat url("https://clemjonescentre.com.au/wp-content/uploads/2022/08/7-scaled.jpeg");
+}
+/* .head{
+    height: 120px;
+    width: 700px;
+    background-color: white;
+    opacity: 0.6;
+    margin-top: -600px;
+    margin-left: 400px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+} */
+body{
+    margin: 0;
+    background-color: black;
+}
+.main{
+    height: 550px;
+    width: 100%;
+    margin-top: 570px;
+}
+.hiit{
+    background: center/cover no-repeat url("https://img.freepik.com/premium-photo/sport-strong-man-exercising-with-battle-ropes-gym-with-athlete-doing-battle-rope-workout-gym-dramatic-sports-background_124865-10497.jpg?w=2000");
+    height: 450px;
+    width: 350px;
+    /* opacity: 0.4; */
+    margin-left: 50px;
+}
+.stre{
+    background: center/cover no-repeat url("stre.jpg");
+    height: 450px;
+    width: 350px;
+    /* opacity: 0.4; */
+    margin-top: -450px;
+    margin-left: 566px;
+}
+.cardio{
+    background: center/cover no-repeat url("https://images.unsplash.com/photo-1614691771330-13f4e0deec54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyZGlvfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    height: 450px;
+    width: 350px;
+    /* opacity: 0.5; */
+    margin-top: -450px;
+    margin-left: 1100px;
+}
+.table-1{
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    padding-left: 107px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.learn-1, .learn-2, .learn-3{
+    height: 50px;
+    width: 100px;
+    margin-top: 340px;
+    margin-left: 126px;
+    background-color: black;
+    font-weight: 100;
+    color: white;
+    border-radius: 10px;
+}
+.learn-1:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    /* height: 80px;
+    width: 130px;
+    transition: width 3s, height 3s, transform 3s;
+    transform: rotate(360deg); */
+}
+.learn-2:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+.learn-3:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    /* height: 80px;
+    width: 130px; */
+}
+.learn-more{
+    height: 500px;
+    width: 100%;
+    background: center/cover no-repeat url("https://s7d2.scene7.com/is/image/TWCNews/brooklyn-gym-generic-file-covidjpg");
+    opacity: 0.5;
+}
+.img-3, .img-2, .img-1{
+    width: 250px;
+    height: 150px;
+    margin-left: 180px;
+    margin-top: 240px;
+}
+.table{
+    margin-top: -450px;
+}
+.last{
+    height: 300px;
+    background-color: rgb(25, 21, 36);
+    opacity: 0.8;
+}
+.about-us{
+    color: white;
+    width: 194px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 1px;
+    margin-left: 90px;
+}
+.abt-1{
+    color: white;
+    font-size: 17px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
+.abt-1:hover{
+    cursor: pointer;
+}
+.mem{
+    height: 194px;
+    width: fit-content;
+    margin-left: 390px;
+    margin-top: -115px;
+}
+.mem-1{
+    color: white;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.member{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.mem-1:hover{
+    cursor: pointer;
+}
+.trm{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 668px;
+    margin-top: -194px;
+}
+.trm-1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px; 
+}
+.cond{
+    color: white;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cond:hover{
+    cursor: pointer;
+}
+.service{
+    height: fit-content;
+    width: fit-content;
+    margin-top: -115px;
+    margin-left: 1086px;
+}
+.ser{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.cust{
+    color: white;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cust:hover{
+    cursor: pointer;
+}

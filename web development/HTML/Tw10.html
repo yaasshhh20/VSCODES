@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <img src="" id="flower" width=400 height=400 />
+    <script>
+        console.log("about to fetch a flower");
+        GetImage().catch(error => {
+            console.error(error);
+        });
+        async function GetImage(){
+            const response = await fetch("flower.jpg");
+            const blob = await response.blob();
+            document.getElementById("flower").src=URL.createObjectURL(blob);
+        }
+    </script>
+    <img src="https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="car"/>
+</body>
+</html>

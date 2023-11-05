@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animations and Transitions in HTML</title>
+    <style>
+      /* Animations */
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: #f00;
+        animation: pulse 1s infinite;
+      }
+      
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+      }
+      
+      /* Transitions */
+      .button {
+        background-color: #f00;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.5s ease-in-out;
+      }
+      
+      .button:hover {
+        background-color: #00f;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animations and Transitions in HTML</h1>
+    
+    <h2>Animations</h2>
+    <div class="box"></div>
+    
+    <p>The animation property in CSS allows you to animate HTML elements. You can create keyframes and define the changes in the element's style at different stages of the animation. In this example, we are using the pulse animation to make the red box scale up and down continuously.</p>
+    
+    <h2>Transitions</h2>
+    <button class="button">Hover Over Me</button>
+    
+    <p>The transition property in CSS allows you to add smooth transitions to HTML elements when their CSS properties change. In this example, we are using the transition property to add a smooth color change effect to the button when it is hovered over. The ease-in-out timing function makes the transition start slowly, speed up, and then slow down again.</p>
+  </body>
+</html>

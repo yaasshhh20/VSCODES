@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                position: relative;
+                background-color: red;
+                animation-name: example;
+                animation-duration: 4s;
+                animation-delay: 2s;
+                animation: color 3s linear infinite;
+            }
+            @keyframes color{
+                0%{background-color: red;}
+                50%{background-color: green;}
+                100%{background-color: blue;}
+            }
+        </style>
+        <body>
+            <div></div>
+        </body>
+    </head>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html,body{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background: radial-gradient(#550d39,#270537);
+            }
+            .stage{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .campfire{
+                position: relative;
+                width: 600px;
+                height: 600px;
+                transform-origin: center center;
+                transform: scale(0.75);
+            }
+            .log{
+                position: absolute;
+                width: 238px;
+                height: 70px;
+                border-radius: 32px;
+                background: #781e20;
+                overflow: hidden;
+                opacity: 0.99;
+            }
+            .log::before{
+                content: '';
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 35px;
+                width: 8px;
+                height: 8px;
+                border-radius: 32px;
+                background: #b35050;
+                transform: translate(-50%,-50%);
+                z-index: 3;
+                box-shadow: 0 0 0 2.5px #781e20,
+                            0 0 0 10.5px #b35050,
+                            0 0 0 13px #781e20,
+                            0 0 0 21px #b35050,
+                            0 0 0 23.5px #781e20,
+                            0 0 0 31.5px #b35050;
+            }
+            .streak{
+                position: absolute;
+                height: 2px;
+                border-radius: 20px;
+                background: #b35050;
+            }
+            .streak:nth-child(1){
+                top: 10px;
+                width: 90px;
+            }
+            .streak:nth-child(2){
+                top: 10px;
+                left: 100px;
+                width: 80px;
+            }
+            .streak:nth-child(3){
+                top: 10px;
+                left: 190px;
+                width: 30px;
+            }
+            .streak:nth-child(4){
+                top: 22px;
+                width: 132px;
+            }
+            .streak:nth-child(5){
+                top: 22px;
+                left: 142px;
+                width: 48px;
+            }
+            .streak:nth-child(6){
+                top: 22px;
+                left: 200px;
+                width: 28px;
+            }
+            .streak:nth-child(7){
+                top: 34px;
+                left: 74px;
+                width: 160px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="stage">
+            <div class="campfire">
+                <div class="sparks">
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                </div>
+                <div class="logs">
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                    <div class="log">
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                        <div class="streak"></div>
+                    </div>
+                </div>
+                <div class="sticks">
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                    <div class="stick"></div>
+                </div>
+                <div class="fire">
+                    <div class="fire_red">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                    <div class="fire_orange">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                    <div class="fire_yellow">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                    <div class="fire_white">
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                        <div class="flame"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
