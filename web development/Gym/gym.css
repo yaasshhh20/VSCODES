@@ -1,3 +1,11 @@
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px width */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px width */
+}
+
 .nav{
     height: 100px;
     width: auto;
