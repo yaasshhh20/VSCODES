@@ -42,7 +42,7 @@ nav ul li a {
     margin: auto;
     position: absolute;
     margin-top:20px;
-    margin-left: 27%;
+    margin-left: 33%;
     background-size: contain,cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -155,7 +155,7 @@ nav ul li a {
   }
   .social {
     position: fixed;
-    top: 50%;
+    top: 65%;
     right: 0px;
     transform: translateY(-50%);
   }
@@ -181,3 +181,24 @@ nav ul li a {
     color: #2b2b2b;
   }
   
+.main2{
+  background: #717c69;
+  height: 500px;
+  width: auto;
+}
+.codingImg{
+  margin-left: 20px;
+}
+.Git{
+  color: white;
+  margin-top: -400px;
+  margin-left: 400px;
+}
+.Git-1{
+  height: 70px;
+  width: 150px;
+  border-radius: 20px;
+  margin-left: 250px;
+  margin-top: 220px;
+  
+} 
